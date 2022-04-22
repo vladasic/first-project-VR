@@ -1,0 +1,81 @@
+* {
+    font-family: 'Gilroy';
+    color: black;
+}
+
+.body {
+    max-width: 1920px;
+    display: flex;
+    background-color: #E5E5E5;
+    flex-direction: column;
+    margin: 25 0;
+}
+
+
+/* реализовать border*/
+
+.header {
+    display: flex;
+    margin: auto;
+    height: 90px;
+    align-items: center;
+    gap: 30px;
+}
+
+.hedaer__logo {
+    width: 189px;
+    height: 54.98px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.header__number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__list {
+    display: flex;
+    gap: 15px;
+}
+
+.hedaer__list-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__button {
+    Width: 270px;
+    Height: 40px;
+    background-color: #00868A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 8px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.header__button_image {
+    width: 26px;
+    height: 22px;
+}
+
+.header__button-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__social-icon {
+    Width: 24px;
+    Height: 24px;
+    cursor: pointer;
+}
